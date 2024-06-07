@@ -1,6 +1,6 @@
 Bike Service Application
 
-The application provides backend APIs to streamline registration for administrators and users, along with CRUD functionalities for service management and status updates. Users can initiate service bookings, prompting email notifications to the administrator. Furthermore, upon service completion by the provider, users promptly receive email notifications with updated service statuses. Upon user login, a JWT token is generated containing their user ID and email, facilitating seamless booking processes by retrieving user information for further processing.
+The application provides backend APIs to streamline registration for administrators and Customers, along with CRUD functionalities for service management and status updates. Customers can initiate service bookings, prompting email notifications to the administrator. Furthermore, upon service completion by the provider, Customers promptly receive email notifications with updated service statuses. Upon Customer login, a JWT token is generated containing their Customer ID and email, facilitating seamless booking processes by retrieving Customer information for further processing.
 
 Process to run the files : 
 
@@ -13,9 +13,9 @@ Process to run the files :
 
 End Points:
 
-1. User Registraion and Login
+1. Customer Registraion and Login
 2. Admin Login
 3. Services and Service Status CRUD Operations
-4. User Service Booking and got a service request through an mail to the admin
-5. Once a service updated the user got an email
-6. Users can know about their applied service through the login 
+4. Customer Service Booking and got a service request through an mail to the admin
+5. Once a service updated the Customer got an email
+6. Customers can know about their applied service through the login 

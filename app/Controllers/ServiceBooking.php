@@ -84,7 +84,7 @@ class ServiceBooking extends BaseController
 
         $to = $user['email'];
         $subject = "Service Booking";
-        $message = "Hello Admin, <br> The " . $service['name'] . " has been booked on this date " . $date . ". <br> Kindly check on This Process.";
+        $message = "Hello John, <br> The " . $service['name'] . " has been booked on this date " . $date . ". by the your Customer. <br> Kindly check on it !!!.";
 
         $email = \Config\Services::email();
         $email->initialize(config('Email'));
@@ -123,7 +123,7 @@ class ServiceBooking extends BaseController
 
                 $to = $user['email'];
                 $subject = "Service Booking";
-                $message = "Hello User, <br> The " . $service['name'] . " has been " . $findStatus['name'] . " <br> Thanks for Reaching Us !!!";
+                $message = "Hello Customer, <br> The " . $service['name'] . " has been " . $findStatus['name'] . " <br> Thanks for Reaching Us !!!";
 
                 $email = \Config\Services::email();
                 $email->initialize(config('Email'));
